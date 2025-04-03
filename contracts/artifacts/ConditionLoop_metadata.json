@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_add",
+						"type": "address"
+					}
+				],
+				"name": "isOner",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ConditionLoop.sol": "ConditionLoop"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ConditionLoop.sol": {
+			"keccak256": "0x14f3d09c6676f7ebf22c16d4d3d850bfd34b57f391e5948578d995eb9b5c873a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f89378850c025401686eafa78c376fc8d434a445def0bff55956d50ab79b75c7",
+				"dweb:/ipfs/QmWMsMs7gSDKFX1aBGNovDeXa9GAP1Kt8sVb8FxG7NYYMy"
+			]
+		}
+	},
+	"version": 1
+}
