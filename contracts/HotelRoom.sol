@@ -22,7 +22,7 @@ contract HotelRoom {
 
     modifier costs(uint _ammount) {
         require(msg.value >= _ammount, "Not enough ether provided");
-        require(msg.value <= 90, "Ammount should be less than 90");
+        require(msg.value >= 90, "Ammount should be less than 90");
         _;
     }
 
@@ -45,8 +45,6 @@ contract HotelRoom {
     function book() public payable onlyWhileEmpty costs(2 ether) {
         currentStatus = RoomStatus.FULL;
         owner.transfer(msg.value);
-
-        // require(true);
 
         emit BookingEvent(msg.sender, msg.value);
     }
