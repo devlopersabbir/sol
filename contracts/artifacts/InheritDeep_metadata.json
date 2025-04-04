@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_secret",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getSecret",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/InheritDeep.sol": "InheritDeep"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/InheritDeep.sol": {
+			"keccak256": "0x3bd0acc16f75d226e903375625f649d9d5a1b1d43eeadcfee02fe099d68ec769",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://35c3c3de25ce32af0a3f6335d393b52b3bd6e367926af742199b38ce0d9a78ae",
+				"dweb:/ipfs/QmXkNnAQ8VfrbzvdCX9KU7e8yaHK5dGKzQtKLQfa8Am8LS"
+			]
+		}
+	},
+	"version": 1
+}
